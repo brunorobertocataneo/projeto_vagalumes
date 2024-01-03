@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const time_left = new Date(`Febuary 17 ${currentYear + 1} 00:00:00`); // dara o nome a  variavel
+const time_left = new Date(`Febuary 17 ${currentYear + 0} 00:00:00`); // dara o nome a  variavel
 
 function updateCountdown() {
     const currentTime = new Date();
